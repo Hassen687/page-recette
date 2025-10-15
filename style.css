@@ -20,7 +20,7 @@ body main {
 }
 
 body main img {
-    width: 480px;
+    width: 500px;
     height: auto;
     border-radius: 20px;
     text-align: center;
@@ -28,11 +28,39 @@ body main img {
 
 h1 {
     color: darkred;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
 }
 
-h4 {color: darkred;
+h2 {color: darkred;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 50px;
+}
+
+p, ul, ol{
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+table th {
+    border: 1px solid grey;
+    padding: 8px;
+    color: darkred;
+}
+
+table td {
+    border: 1px solid grey;
+    padding: 8px;
+    color: black;
 }
